@@ -1,12 +1,8 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import getters from './getters'
-import app from './modules/app'
-import settings from './modules/settings'
-import user from './modules/user'
 
 Vue.use(Vuex)
-
 
 // https://webpack.js.org/guides/dependency-management/#requirecontext
 const modulesFiles = require.context('./modules', true, /\.js$/)
