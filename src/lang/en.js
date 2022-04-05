@@ -25,5 +25,11 @@ export default {
     username: 'Username',
     password: 'Password',
     any: 'any'
+  },
+  tagsView: {
+    refresh: 'Refresh',
+    close: 'Close',
+    closeOthers: 'Close Others',
+    closeAll: 'Close All'
   }
 }
