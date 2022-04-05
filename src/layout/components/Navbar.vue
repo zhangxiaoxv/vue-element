@@ -6,6 +6,7 @@
 
     <div class="right-menu">
       <template v-if="device!=='mobile'">
+        <search id="header-search" class="right-menu-item" />
         <lang-select class="right-menu-item hover-effect" />
       </template>
 
@@ -42,12 +43,14 @@ import { mapGetters } from 'vuex'
 import Breadcrumb from '@/components/Breadcrumb'
 import Hamburger from '@/components/Hamburger'
 import LangSelect from '@/components/LangSelect'
+import Search from '@/components/HeaderSearch'
 
 export default {
   components: {
     Breadcrumb,
     Hamburger,
-    LangSelect
+    LangSelect,
+    Search
   },
   computed: {
     ...mapGetters([

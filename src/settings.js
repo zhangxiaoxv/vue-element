@@ -12,5 +12,12 @@ module.exports = {
    * @type {boolean} true | false
    * @description Whether show the logo in sidebar
    */
-  sidebarLogo: false
+  sidebarLogo: false,
+
+  /**
+   * @type {boolean} true | false
+   * @description Whether support pinyin search in headerSearch
+   * Bundle size minified 47.3kb,minified + gzipped 63kb
+   */
+  supportPinyinSearch: true
 }
