@@ -12,8 +12,7 @@ export default {
     menu2: 'Menu 2',
     table: 'Table',
     tree: 'Tree',
-    form: 'Form',
-    externalLink: 'External Link'
+    form: 'Form'
   },
   navbar: {
     dashboard: 'Dashboard',

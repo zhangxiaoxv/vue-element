@@ -12,8 +12,7 @@ export default {
     menu2: '菜单 2',
     table: '表',
     tree: '树',
-    form: '表单',
-    externalLink: '外链'
+    form: '表单'
   },
   navbar: {
     dashboard: '首页',
